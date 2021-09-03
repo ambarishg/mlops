@@ -4,9 +4,6 @@ resources:
   containers:
   - container: mlops
     image: mcr.microsoft.com/mlops/python:latest
-  pipelines:
-  - pipeline: model-train-ci
-    source: Model-Train-Register-CI # Name of the triggering pipeline
 
 pr: none
 trigger:
